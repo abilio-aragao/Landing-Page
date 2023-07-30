@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Music_alt2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/575759b0c5.js" crossorigin="anonymous"></script>
+    <title>Form-Page</title>
+
+<script>
+           let d = prompt ('deseja jogar o audio? --- sim/não')
+           let song = document.getElementById('music')
+
+         function tocar(){
+            song.play()
+
+           }
+           
+           
+        </script>
+
+</head>
+
+<body onload="tocar()">
+
+    <audio style="display: none;" id="music">
+        <source src="64s Island.mp3" >
+    </audio>
+   <div id="landing-form">
+        <div class="container">
+            <div class="row">
+                <div class="landing-form-1"><img src="y2mate.com - Juice WRLD  Cigarettes Official Music Video_1080p 00_00_00-00_00_30.gif" alt="">
+                	<div class="layer" >
+                    	<p>O SoundOn mostra-te as melhores tendências da música em todo o mundo <br> Ouça músicas online e faça download das músicas mais tocadas! </p>
+                	</div>
+                </div>
+                <div class="landing-form-2">
+                    <h1 id="title">Sound<span>On</span></h1>
+                    <h2 id="sub-title">Inicie sessão em Sound<span>On</span></h2>
+                    <form action="">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="" placeholder="Password" required>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+                    <p id="registar"><a href="#">Não tens ainda uma conta? <span>Regista-te</span></a></p>
+                </div>
+             </div>
+	</div>
+
+</div>
+     
+
+   <div class="copyright">
+            <p>Copyright &copy; Abílio. Made with <i class="fas fa-heart"></i> by DevScript</p>
+        </div>
+        
+</body>
+</html>
